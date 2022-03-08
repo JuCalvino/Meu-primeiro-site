@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,400;0,500;1,400&display=swap');
+body{
+    background-color: #fdcdd9;
+}
+.barra {
+    background-color:#ba5370;
+}
+.text {
+    color: #fdcdd9
+}
+.p-3 {
+    padding: 1rem!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+header {
+    display: block;
+}
+
+#myCarousel{
+background-color: #ba5370;
+}
+
+.carousel {
+    margin-bottom: 4rem;
+    position: relative;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.doce{
+ width: 700px;
+ height: 100px;
+}
+div {
+    display: block;
+}
+.btn-warning {
+    background-color: #ba5370;
+    border-color: #ba5370;
+}
+.kart{
+    width: 20px;
+    background-color: #ba5370;
+}
+a {
+    font-family: 'Noto Serif Display', serif;
+	font-size: 20px;
+    color:#fdcdd9;
+    text-align: center;
+    text-decoration: none;
+}
+
+.barra{
+    color: #fdcdd9;
+}
+.logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.pesquisa {
+    display: flex;
+    color: #fdcdd9;
+    margin-top: 5px;
+}
+.pesquisa img{
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.pesquisa input {
+    width: 20vw;
+    border: transparent;
+    border-radius: 4px;
+}
+.carrinho {
+    color: #fdcdd9;
+}
+.carrinho img {
+    width: 24px;
+   }
+li{
+    text-decoration: none;
+    height: 40px;
+}
+
+#menu ul{
+    color: #ba5370;
+    background-color: #ba5370;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#menu ul li {
+    display: inline;
+}
+h1{
+    font-family: 'Noto Serif Display', serif;
+    color: #ba5370;
+    font-size: 90px;
+    text-align: center;
+    margin: 0;
+    margin-top: 5%;
+}
+h5{
+    font-family: 'Noto Serif Display', serif;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+    color: #ba5370;
+    font-size: 20px;
+}
+h6{
+    font-family: 'Noto Serif Display', serif;
+    display: flex;
+    color: #ba5370;
+    font-size: 40px;
+    text-align: left;
+    margin-top: 10%;
+    margin-left: 100px;
+}
+p{
+    font-family: 'Noto Serif Display', serif;
+    display: flex;
+    color: #ba5370;
+    font-size: 20px;
+    margin-left: 100px;
+    text-decoration: solid;
+}
+.mais{
+    font-family: 'Noto Serif Display', serif;
+    color: #fdcdd9;
+    background-color:#ba5370;
+    text-align: right;
+    margin-right: 50px;
+    border: solid;
+    margin-left: 92%;
+}
+.produto1 img{
+    max-width: 30%;
+}
+.produto1::after {
+    content: attr(data-title);
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+  }
+
+.produto2 img{
+    max-width: 30%;
+}
+.produto2::after {
+    content: attr(data-title);
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+  }
+.produto3 img{
+    max-width: 30%
+}
+.produto3::after {
+    content: attr(data-title);
+    position: absolute;
+    width: 100%;
+    bottom: -20px;
+    left: 0;
+  }
+
+.faq {
+    max-width: 100%;
+    font-family: 'Noto Serif Display', serif;
+    border: solid;
+    border-color: #ba5370;
+    margin-top: 10%;
+}
+h5 {
+    font-family: 'Noto Serif Display', serif;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    text-align: center;
+}
+p {
+    font-family: 'Noto Serif Display', serif;
+    margin-bottom: 10px;
+    margin-left: 1%;
+}
+.localização {
+    max-width: 100%;
+    font-family: 'Noto Serif Display', serif;
+    border: solid;
+    border-color: #ba5370;
+    margin-top: 10%;
+    
+}
+footer{
+    max-width: 100%;
+    color:#fdcdd9
+}
+.text1 {
+    --bs-text-opacity: 1;
+    color: #ba5370;
+}
+#voltar {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    border: none;
+    padding: none;
+    background-color: transparent;
+
+  }
+iframe{
+    width: 100%;
+}
